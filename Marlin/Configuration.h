@@ -1055,7 +1055,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -40, 5, -16.85 }
+#define NOZZLE_TO_PROBE_OFFSET { -40, 5, -17.1 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1709,13 +1709,13 @@
 #define PREHEAT_1_TEMP_HOTEND 180
 #define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_TEMP_CHAMBER 35
-#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
 #define PREHEAT_2_TEMP_HOTEND 240
 #define PREHEAT_2_TEMP_BED    110
 #define PREHEAT_2_TEMP_CHAMBER 35
-#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
 /**
  * Nozzle Park
